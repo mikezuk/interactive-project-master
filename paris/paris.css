@@ -1,48 +1,51 @@
-body {
+/* body {
   margin: 50;
-  background-image: url('assets/nyc/NYC.jpg');
+  background-image: url('chinatown/assets/nyc/NYC.jpg');
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: 75% 75%;
   background-position: center;
 
-}
+} */
 
-#NY {
+#Louvre {
   background-color:transparent;
   border: none;
   border-radius: 400px;
-  width: 80px;
-  height: 80px;
+  width: 390px;
+  height:  230px;
   padding: 12px 16px;
   cursor: pointer; 
   position: absolute;
-  left: 357px;
-  top: 186px;
+  left: 830px;
+  top: 500px;
 }
 
-#Seoul {
+#Eiffel {
   background-color: transparent;
   border: none;
   border-radius: 95px;
-  width: 65px;
-  height: 84px;
+  width: 300px;
+  height: 400px;
   padding: 12px 16px;
   cursor: pointer; 
   position: absolute;
-  left: 1280px;
-  top: 207px;
+  left: 220px;
+  top: 60px;
 }
 
-#Paris {
-  background-color: transparent;
+.BackButton {
+  background-color: rgb(179, 176, 3);
   border: none;
-  border-radius: 95px;
-  width: 60px;
-  height: 96px;
+  color: white;
   padding: 12px 16px;
+  font-size: 16px;
   cursor: pointer; 
   position: absolute;
-  left:  705px;
-  top: 150px;
+  left: 10px;
+  top: 10px;
+}
+
+.BackButton:hover {
+  background-color: rgb(77, 77, 77);
 }

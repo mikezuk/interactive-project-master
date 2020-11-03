@@ -20,13 +20,13 @@ function draw() {
 }
 
 function preload() {
-  img = loadImage('../assets/seoul/NAMSAN.jpg');
-  img2 = loadImage('assets/notepad.png');
+  img = loadImage('../namsan-tower/assets/seoul/NAMSAN.jpg');
+  img2 = loadImage('../namsan-tower/assets/notepad.png');
 }
 
 function openWin() {
   window.open("http://www.nseoultower.co.kr/eng/");
 }
 function openWin2() {
-  window.open("../index.html");
+  window.open("../seoul-index.html");
 }
